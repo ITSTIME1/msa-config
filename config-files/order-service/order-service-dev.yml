@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.itstime.orderservice: INFO
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

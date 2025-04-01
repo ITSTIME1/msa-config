@@ -1,0 +1,3 @@
+logging:
+  level:
+    org.itstime.userservice: DEBUG
