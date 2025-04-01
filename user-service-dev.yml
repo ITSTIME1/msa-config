@@ -1,7 +1,0 @@
-# order-service-daev.yml
-api:
-  endpoint: "http://localhost:9091/api"
-feature:
-  enableDiscount: true
-message: "UserService: Hello from msa-config!"
-
