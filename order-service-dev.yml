@@ -1,12 +1,7 @@
 # order-service-dev.yml
-server:
-  port: 9092
-
 api:
-  endpoint: "http://localhost:9092/api"  # Order Service 전용 API 엔드포인트
-
+  endpoint: "http://localhost:9092/api"
 feature:
   enableDiscount: true
-
 message: "Order Service: Hello from msa-config!"
 

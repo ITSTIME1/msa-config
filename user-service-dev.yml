@@ -1,12 +1,7 @@
-# user-service-dev.yml
-server:
-  port: 9091
-
+# order-service-daev.yml
 api:
-  endpoint: "http://localhost:9091/api"  # User Service 전용 API 엔드포인트
-
+  endpoint: "http://localhost:9091/api"
 feature:
-  newUI: true
-
-message: "User Service: Hello from msa-config!"
+  enableDiscount: true
+message: "UserService: Hello from msa-config!"
 
