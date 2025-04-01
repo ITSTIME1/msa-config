@@ -1,9 +1,13 @@
 spring:
-  jackson:
-    property-naming-strategy: SNAKE_CASE
+  profiles:
+    active: dev  # 기본 프로파일
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+logging:
+  level:
+    root: INFO
+
+api:
+  timeout: 5000  # 모든 서비스에 공통 적용할 API 타임아웃 (밀리초)
+
+common:
+  welcomeMessage: "Welcome to our MSA system!"
